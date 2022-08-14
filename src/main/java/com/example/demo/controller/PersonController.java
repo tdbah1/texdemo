@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class PersonController {
 	@RequestMapping("/getname")
 	public String getName() {
-		return "Someone Name";
+		return "Pushing to Github with SSHkey";
 	}
 
 }
